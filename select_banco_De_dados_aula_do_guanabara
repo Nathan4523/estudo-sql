@@ -1,0 +1,29 @@
+==============RESPOSTAS==============
+
+exercicio 1:
+R: SELECT nome FROM gafanhotos WHERE sexo = 'F'
+
+exercicio 2:
+R: SELECT nome FROM gafanhotos WHERE nascimento BETWEEN '2000-01-01' and '2015-12-31'
+
+exercicio 3:
+R: SELECT nome FROM gafanhotos WHERE profissao = 'programador'
+
+exercicio 4:
+R: SELECT nome FROM gafanhotos WHERE nome LIKE 'j%' AND nacionalidade = 'Brasil' AND sexo = 'F'
+
+exercicio 5:
+R: SELECT nome, nacionalidade FROM gafanhotos WHERE nome LIKE '%Silva%' AND nacionalidade NOT LIKE 'Brasil' AND peso < 100
+
+exercicio 6:
+R: SELECT MAX(altura) FROM gafanhotos WHERE sexo = 'M' and nacionalidade LIKE 'Brasil'
+
+exercicio 7:
+R: SELECT AVG(peso) FROM gafanhotos
+	
+exercicio 8:
+R: SELECT min(peso) FROM gafanhotos WHERE nascimento BETWEEN '1990-01-01' and '2000-12-31' and nacionalidade not LIKE 'Brasil'
+
+exercicio 9:
+R: SELECT count(*) FROM gafanhotos WHERE sexo = 'F' and altura > 1.90
+
